@@ -1,0 +1,43 @@
+{
+  "plugins": [
+    "cypress",
+    "@typescript-eslint"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "ignorePatterns": [
+    "node_modules/",
+    "build/",
+    "dist/",
+    "cypress/reports"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "cypress/**/*.ts"
+      ],
+      "rules": {
+        "semi": [
+          "error",
+          "always"
+        ],
+        "cypress/no-assigning-return-values": "error",
+        "cypress/assertion-before-screenshot": "warn",
+        "cypress/no-force": "warn",
+        "cypress/no-async-tests": "error",
+        "cypress/no-pause": "error",
+        "@typescript-eslint/no-var-requires": "off",
+        "@typescript-eslint/no-namespace": "off",
+        "no-multiple-empty-lines": [
+          "error",
+          {
+            "max": 1
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "demo_blaze_tdd",
+  "version": "1.0.0",
+  "description": "E2E tests for the DemoBlaze Website using TDD",
+  "main": "index.js",
+  "scripts": {
+    "test:headless": "cypress run --headless",
+    "test:headed": "cypress run --headed",
+    "test:open": "npx cypress open",
+    "lint:eslint": "npx eslint ."
+  },
+  "keywords": [],
+  "author": "Ylber Pllana",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@types/faker": "^6.6.9",
+    "@types/node": "^20.4.8",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
+    "cypress": "^13.6.6",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "eslint": "^8.57.0",
+    "eslint-plugin-cypress": "^2.15.1",
+    "typescript": "^5.1.3"
+  }
+}

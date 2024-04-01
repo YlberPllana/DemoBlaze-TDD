@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "types": [
+      "cypress"
+    ],
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "./cypress/**/*",
+    "cypress/cypress.config.ts"
+  ],
+  "files": [
+    "./cypress/support/commands.ts"
+  ]
+}
