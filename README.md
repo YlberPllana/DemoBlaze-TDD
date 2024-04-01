@@ -1,6 +1,5 @@
 # Cypress with TDD
-E2E testing of DemoBlaze Website using Cypress with Behaviour Driven Development and Page Object Model (POM), which is an architectural design pattern commonly used in test automation, especially for web applications. The primary goal of the Page Object Model is to enhance test code maintainability, readability, and reusability. 
-Cucumber and Gherkin are used for defining test scenarios in a human-readable format. The tests can also be run in Docker for consistent test execution across different environments. Code is written in TypeScript, and ESLint is used for code linting and ensuring code quality.
+E2E testing of DemoBlaze Website using Cypress with Test Driven Development and Page Object Model (POM), which is an architectural design pattern commonly used in test automation, especially for web applications. The primary goal of the Page Object Model is to enhance test code maintainability, readability, and reusability. Code is written in TypeScript, and ESLint is used for code linting and ensuring code quality.
 
 # Table of contents
 
