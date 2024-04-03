@@ -1,5 +1,5 @@
 node_modules
 cypress/fixtures/randomCredentials.json
 cypress.env.json
-cypress/reports
-cypress/screenshots
+cypress/reports/html
+cypress/screenshots/login.cy.ts
